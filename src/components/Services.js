@@ -32,7 +32,7 @@ const Services = () => {
 
           />
           <div className='service-footer'>
-            <p className='text-lg'>Lawn care, tree trimming, tree and shrub pruning and weed control</p>
+            <p className='text-lg'>Lawn Care, Tree Trimming, Tree and Shrub Pruning and Weed Control.</p>
           </div>
         </article>
       
@@ -51,7 +51,7 @@ const Services = () => {
             className='service-img'
           />
           <div className='service-footer'>
-            <p className='text-lg'>Irrigation system install, Irrigation repairs and upkeep, and water audits</p>
+            <p className='text-lg'>Irrigation System Install, Irrigation Repairs and Upkeep, and Water Audits.</p>
           </div>
         </article>
 
@@ -70,7 +70,7 @@ const Services = () => {
             className='service-img'
           />
           <div className='service-footer'>
-            <p className='text-lg'>Flagstone, brick, concrete, and rock decoration</p>
+            <p className='text-lg'>Flagstone, Brick, Concrete, and Rock Decoration.</p>
           </div>
         </article>
 
@@ -89,7 +89,7 @@ const Services = () => {
             className='service-img'
           />
           <div className='service-footer'>
-            <p className='text-lg'>Routine Maintenance, Site clean-ups, trash hauling, and annual plantings</p>
+            <p className='text-lg'>Routine Maintenance, Site Clean-ups, Trash Hauling, and Annual Plantings.</p>
           </div>
         </article>
       </section>

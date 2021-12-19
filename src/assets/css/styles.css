@@ -253,6 +253,10 @@ body {
   color: var(--white);
 }
 
+.paragraph-br {
+  margin-top: .4rem;
+}
+
 /* ------------------------------------- */
 /* Services Page */
 /* ------------------------------------- */
@@ -395,4 +399,9 @@ body {
 
 .legal-copy a:hover{
   border-bottom: 1px solid white;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--white);
+  opacity: 1;
 }
