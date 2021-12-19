@@ -14,7 +14,7 @@ const Footer = () => {
         
       </ul>   
       <div className='legal-copy'>
-        <p>@copyright green patio landscapping, LLC {date}</p>
+        <p>@copyright green patio landscaping, LLC {date}</p>
         <p><a href="https://www.graziani.dev">designed and built by graziani.dev</a></p>
       </div> 
     </footer>
