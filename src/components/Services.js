@@ -32,7 +32,7 @@ const Services = () => {
 
           />
           <div className='service-footer'>
-            <p className='text-lg'>Lawn Care, Tree Trimming, Tree and Shrub Pruning and Weed Control.</p>
+            <p className='text-lg'>Lawn Care, Tree Trimming, Tree and Shrub Pruning, Lawn Mowing and Weed Control.</p>
           </div>
         </article>
       

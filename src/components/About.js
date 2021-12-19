@@ -12,7 +12,7 @@ const About = () => {
       <section className='about-section section-text-wrapper flex-col-center'>
         <p className='section-sub-title'>green patio landscaping</p>
         <h3 className='hero-text-h3'>We Serve our Friends and our Community</h3>
-        <p>Our company specializes in landscaping and not every home is designed the same so our landscaping services will always be tailored to meet your specific needs. We take pride in our work and we love building long lasting relationships with our customers.</p>
+        <p>Our company specializes in landscaping and not every residential lawn is designed the same so our landscaping services will always be tailored for your specific lawn. We take pride in our work and we love building long lasting relationships with our customers.</p>
         <div className='links-container'>
           <a className='btn' href="#contact">book free consultation</a>
         </div>

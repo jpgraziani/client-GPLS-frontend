@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Green Patio Landscaping in Tucson, Arizona",
-    description: "Landscape Company, Lawn Maintenance, Yard Care, Landscape Service, Hardscapes, Lawn Irrigation, Hardscape, Irrigation, Hardscaping, Lawn Mowing, Landscaping Company, Sprinkler Installation, Commercial Lawn Care, Residential Lawn Care, Tree Trimming, Tree and Shrub Pruning, Weed Control, Water Audits, Landscape Masonry, Annual Plantings",
+    description: "Landscape Company, Lawn Maintenance, Lawn And Garden Care, Landscape Service, Lawn Irrigation, Irrigation, Lawn Mowing, Landscaping Company, Irrigation Installation, Residential Lawn Care, Tree Trimming, Tree and Shrub Pruning, Weed Control, Water Audits, Landscape Masonry, Annual Plantings, Routine Maintenance, Site Clean-ups",
     author: `@greenpatiolandscaping`,
     siteUrl: `https://www.greenpatiolandscaping.com`,
   },
