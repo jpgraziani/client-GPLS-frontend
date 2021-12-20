@@ -16,7 +16,7 @@ const Hero = () => {
       </section>
       
       <StaticImage 
-        src='../assets/images/house-front.jpg' 
+        src='../assets/images/jg-front-home.jpg' 
         alt='residental home landscaping desert tucson arizona' 
         className='hero-position-col-2' 
         placeholder='blurred' 

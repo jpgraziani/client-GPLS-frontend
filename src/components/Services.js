@@ -24,8 +24,8 @@ const Services = () => {
             <p className='card-title'>Lawn &amp; Garden Care</p>
           </header>
           <StaticImage 
-            src='../assets/images/jg-house-front-dark.jpg'
-            alt='residental home front landscaping desert tucson arizona'
+            src='../assets/images/landscape-tucson-backyard-plants-and-lawn-care.jpg'
+            alt='residental lawn tucson arizona orange tree and plam trees'
             placeholder='blurred'
             layout='fullWidth'
             className='service-img'
@@ -63,8 +63,8 @@ const Services = () => {
             <p className='card-title'>Landscape Masonry</p>
           </header>
           <StaticImage 
-            src='../assets/images/jg-flagstone.jpg'
-            alt='residental home front landscaping desert tucson arizona'
+            src='../assets/images/landscaping-masonry-brick-tucson-arizona.jpeg'
+            alt='tucson arizona backyard lawn landscape masonry bricklaying'
             placeholder='blurred'
             layout='fullWidth'
             className='service-img'
@@ -82,8 +82,8 @@ const Services = () => {
             <p className='card-title'>Maintenance</p>
           </header>
           <StaticImage 
-            src='../assets/images/jg-front-home.jpg'
-            alt='residental home front landscaping desert tucson arizona'
+            src='../assets/images/landscaping-lawn-care-tuscon-arizona-desert-residential-lawn.jpg'
+            alt='residental lawn backyard tucson arizona desert landscape'
             placeholder='blurred'
             layout='fullWidth'
             className='service-img'
