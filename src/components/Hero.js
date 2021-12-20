@@ -11,7 +11,7 @@ const Hero = () => {
         
         <div className='links-container'>
           <a className='btn btn-margin-r' href="tel:520.449.2702">call now</a>
-          <a className='btn' href="mailto:jpgraziani@gmail.com">e-mail us</a>
+          <a className='btn' href="mailto:greenpatiolandscaping@gmail.com">e-mail us</a>
         </div>
       </section>
       

@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section id="contact">
-      <form action="https://formspree.io/f/xlezrbbj" method="POST" className='contact-form-wrapper grid-cols-1'>   
+      <form action="https://formspree.io/f/mnqwqyap" method="POST" className='contact-form-wrapper grid-cols-1'>   
         <section className='flex-col'>
           <label className='label-form' htmlFor="_replyto">Your email</label>
           <input className='input-form' type="email" name="_replyto" placeholder="Enter Your Email" required />
