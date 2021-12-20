@@ -44,8 +44,8 @@ const Services = () => {
             <p className='card-title'>Irrigation Services</p>
           </header>
           <StaticImage 
-            src='../assets/images/jg-irrigation.jpg'
-            alt='residental home front landscaping desert tucson arizona'
+            src='../assets/images/tucson-landscape-irrigation-system-rocks-cactus.jpeg'
+            alt='tucson arizona irrigation system black rocks with small cactus'
             placeholder='blurred'
             layout='constrained'
             className='service-img'
