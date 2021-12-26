@@ -2,7 +2,7 @@
   --green-450: #0e220f;
   --green-400: #163217;
   --green-350: #29572a;
-  --green-300: #448546;
+  --green-300: #3c793e;
   --green-200: #356859; 
   --white: #fff;
 }
@@ -16,6 +16,11 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   background: var(--green-350);
+}
+
+h1 {
+  padding: 0;
+  margin:  0;
 }
 
 .btn-submit {
@@ -80,6 +85,10 @@ body {
 
 .links-container {
   margin-top: .75rem;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .btn {
@@ -378,12 +387,28 @@ body {
   font-size: .85rem;
 }
 
+/* ------------------------------------- */
+/* Contact Page */
+/* ------------------------------------- */
 .contact-form-wrapper {
   display: flex;
   justify-items: center;
   margin: 0 auto;
 }
 
+input::placeholder, textarea::placeholder {
+  color: var(--white);
+  opacity: 1;
+}
+
+/* ------------------------------------- */
+/* Footer Page */
+/* ------------------------------------- */
+footer {
+  /* height: 14rem; */
+  background: var(--green-300);
+  color: var(--white);
+}
 .footer-links {
   padding: 1rem;
 }
@@ -401,7 +426,12 @@ body {
   border-bottom: 1px solid white;
 }
 
-input::placeholder, textarea::placeholder {
+.wordmark-sm {
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.phone-link {
   color: var(--white);
-  opacity: 1;
+  text-decoration: none;
 }

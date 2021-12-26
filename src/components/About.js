@@ -18,8 +18,8 @@ const About = () => {
         </div>
       </section>
       <StaticImage 
-        src='../assets/images/cactus.jpg'
-        alt='cactus close up landscaping'
+        src='../assets/images/brick-circle-path-tucson-backyard-landscaping.jpg'
+        alt='brick-circle-path-tucson-backyard-landscaping'
         className='about-img'
       />
     </section>

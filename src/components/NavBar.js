@@ -15,14 +15,11 @@ const NavBar = () => {
             <Logo className='logo-svg' />
           </Link>
           <button className='nav-btn' onClick={()=> setShow(!show)}>
-            {/* <FiAlignJustify /> */}
+            <span className='hidden'>menu button</span>
             <GiHamburgerMenu />
           </button>
         </div>
         <div className={show ? 'nav-links show-links':'nav-links'}>
-          <Link to='/' className='nav-link' 
-            activeClassName='active-link' 
-            onClick={()=> setShow(false)}>home</Link>
           <Link to='#services' className='nav-link' 
             activeClassName='active-link' 
             onClick={()=> setShow(false)}>services</Link>

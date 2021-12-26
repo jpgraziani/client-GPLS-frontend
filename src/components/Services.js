@@ -16,7 +16,7 @@ const Services = () => {
       
       <section className='cards-section-wrapper grid-cols-1 grid-cols-2'>
         {/* cards start here */}
-        <article className='service-card'>
+        <article id='lawnAndGardenCare' className='service-card'>
           <header className='service-header'>
             <div className='circle-icon'>
               <GiHighGrass className='icon-svg' />
@@ -35,8 +35,27 @@ const Services = () => {
             <p className='text-lg'>Lawn Care, Tree Trimming, Tree and Shrub Pruning, Lawn Mowing and Weed Control.</p>
           </div>
         </article>
+
+        <article id='landscapeMasonry' className='service-card'>
+          <header className='service-header'>
+            <div className='circle-icon'>
+              <BsBricks className='icon-svg' />
+            </div>
+            <p className='card-title'>Landscape Masonry</p>
+          </header>
+          <StaticImage 
+            src='../assets/images/landscaping-masonry-brick-tucson-arizona.jpeg'
+            alt='tucson arizona backyard lawn landscape masonry bricklaying'
+            placeholder='blurred'
+            layout='fullWidth'
+            className='service-img'
+          />
+          <div className='service-footer'>
+            <p className='text-lg'>Flagstone, Brick, Concrete, and Rock Decoration.</p>
+          </div>
+        </article>
       
-        <article className='service-card'>
+        <article id='irrigationServices' className='service-card'>
           <header className='service-header'>
             <div className='circle-icon'>
               <FaWater className='icon-svg' />
@@ -55,26 +74,7 @@ const Services = () => {
           </div>
         </article>
 
-        <article className='service-card'>
-          <header className='service-header'>
-            <div className='circle-icon'>
-              <BsBricks className='icon-svg' />
-            </div>
-            <p className='card-title'>Landscape Masonry</p>
-          </header>
-          <StaticImage 
-            src='../assets/images/landscaping-masonry-brick-tucson-arizona.jpeg'
-            alt='tucson arizona backyard lawn landscape masonry bricklaying'
-            placeholder='blurred'
-            layout='fullWidth'
-            className='service-img'
-          />
-          <div className='service-footer'>
-            <p className='text-lg'>Flagstone, Brick, Concrete, and Rock Decoration.</p>
-          </div>
-        </article>
-
-        <article className='service-card'>
+        <article id='maintenance' className='service-card'>
           <header className='service-header'>
             <div className='circle-icon'>
               <FaHandHoldingHeart className='icon-svg hand-icon' />
