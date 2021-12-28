@@ -435,3 +435,20 @@ footer {
   color: var(--white);
   text-decoration: none;
 }
+
+
+.fourOfour {
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.fourOfour h2 {
+  margin-bottom: 2rem;
+}
+
+.fourOfour p {
+  margin-bottom: 1rem;
+}

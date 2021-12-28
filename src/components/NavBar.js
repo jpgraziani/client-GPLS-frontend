@@ -12,24 +12,24 @@ const NavBar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <Link to='/'>
-            <Logo className='logo-svg' />
+            <Logo aria-label='Green Patio Logo' className='logo-svg' />
           </Link>
-          <button className='nav-btn' onClick={()=> setShow(!show)}>
+          <button className='nav-btn' aria-label='Right Align' onClick={()=> setShow(!show)}>
             <span className='hidden'>menu button</span>
             <GiHamburgerMenu />
           </button>
         </div>
         <div className={show ? 'nav-links show-links':'nav-links'}>
-          <Link to='#services' className='nav-link' 
+          <Link aria-label='Section Services' to='#services' className='nav-link' 
             activeClassName='active-link' 
             onClick={()=> setShow(false)}>services</Link>
-          <Link to='#about' className='nav-link' 
+          <Link aria-label='Section About' to='#about' className='nav-link' 
             activeClassName='active-link'
             onClick={()=> setShow(false)}>about</Link>
-          <Link to='#testimonials' className='nav-link' 
+          <Link aria-label='Section Testimonials' to='#testimonials' className='nav-link' 
             activeClassName='active-link' 
             onClick={()=> setShow(false)}>testimonials</Link>
-          <Link to='#contact' className='nav-link' 
+          <Link aria-label='Section Contact' to='#contact' className='nav-link' 
             activeClassName='active-link' 
             onClick={()=> setShow(false)}>contact</Link>
         </div>  

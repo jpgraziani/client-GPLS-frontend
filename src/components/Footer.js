@@ -10,10 +10,10 @@ const Footer = () => {
       <p>Tucson, Arizona</p>
       <a className='phone-link' href="tel:520.449.2702">520.449.2702</a>
       <ul className='footer-links'>
-        <li><Link className='links' to="#lawnAndGardenCare">Lawn &amp; Garden Care</Link></li>
-        <li><Link className='links' to="#landscapeMasonry"> Landscape Masonry</Link></li>
-        <li><Link className='links' to="#irrigationServices">Irrigation Services</Link></li>
-        <li><Link className='links' to="#maintenance">Maintenance</Link></li>
+        <li><Link aria-label='Section Lawn and garden care' className='links' to="#lawnAndGardenCare">Lawn &amp; Garden Care</Link></li>
+        <li><Link aria-label='Section Masonry' className='links' to="#landscapeMasonry"> Landscape Masonry</Link></li>
+        <li><Link aria-label='Section Irrigation Service' className='links' to="#irrigationServices">Irrigation Services</Link></li>
+        <li><Link aria-label='Section Maintenance' className='links' to="#maintenance">Maintenance</Link></li>
       </ul>   
       <div className='legal-copy'>
         <p>@copyright green patio landscaping, LLC {date}</p>

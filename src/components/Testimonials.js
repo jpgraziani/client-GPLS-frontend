@@ -9,7 +9,6 @@ const Testimonials = () => {
         <blockquote>
           <p>Great people to work with! They were prompt, competitive in pricing, and always communicated throughout. Esgar and his crew were very meticulous with everything and even took the time to explain to me how the irrigation system actually works. Every time the crew stops over I feel like they are always going out of their way to add personal care to my landscaping. I highly recommend Green Patio Landscaping.</p>
             <p className='testimonials-customer flex-col-center'>
-              <div className='section-hr' /> 
               <span className='customer-name'>Jonathan G.</span>
               <span className='customer-date'>Customer Since September 2021</span>
             </p>
