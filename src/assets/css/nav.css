@@ -3,12 +3,18 @@
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
 }
+#navBar {
+  /* position: fixed; */
+  z-index: 99;
+  width: 100vw;
+}
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
@@ -42,6 +48,10 @@ button.nav-btn {
 .show-links {
   /* height: 23.9375rem; */
   height: 100vh;
+}
+
+.fixed-position {
+  position: fixed;
 }
 
 .nav-link {

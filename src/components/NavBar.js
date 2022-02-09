@@ -6,16 +6,15 @@ import '../assets/css/nav.css'
 
 const NavBar = () => {
   const [show, setShow] = useState(false)
-
-  return (
-    <nav id='navBar' className='navbar'>
+  
+  return ( 
+    <nav id='navBar' className={show ? 'navbar fixed-position' : 'navbar'}>
       <div className='nav-center'>
         <div className='nav-header'>
           <Link to='/'>
             <Logo aria-label='Green Patio Logo' className='logo-svg' />
           </Link>
           <button className='nav-btn' aria-label='Right Align' onClick={()=> setShow(!show)}>
-            <span className='hidden'>menu button</span>
             <GiHamburgerMenu />
           </button>
         </div>
@@ -39,3 +38,4 @@ const NavBar = () => {
 }
 
 export default NavBar
+

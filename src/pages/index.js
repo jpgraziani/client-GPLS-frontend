@@ -8,6 +8,7 @@ import Testimonials from "../components/Testimonials"
 import Contact from "../components/Contact"
 import '../assets/css/layout.css'
 
+
 export default function Home() {
   return (
     <Layout>

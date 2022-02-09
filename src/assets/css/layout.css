@@ -38,7 +38,10 @@
 .layout-left-justified {
   padding: 3rem 2rem;
 }
-
+.container {
+  position: relative;
+  top: 3rem;
+}
 /* ------------------------------------- */
 /* Grid Scren min-wdith 768px */
 /* ------------------------------------- */

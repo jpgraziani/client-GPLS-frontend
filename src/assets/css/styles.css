@@ -251,12 +251,28 @@ h1 {
   text-transform: uppercase;
 }
 
+.right-arrow, .left-arrow {
+ font-size: 3rem;
+ margin: 0 .25rem;
+}
+
+
+.arrow-slider-container {
+  margin-top: 1rem;
+}
+
+
 /* ------------------------------------- */
 /* Hero Page */
 /* ------------------------------------- */
 #hero-header {
   background: var(--green-400);
 }
+
+/* #hero-header, #services, #about, #testimonials {
+  position: relative;
+  top: 4rem;
+} */
 
 .hero-section {
   color: var(--white);
@@ -375,6 +391,11 @@ h1 {
 
 .testimonials-customer {
   margin-top: .5rem;
+}
+
+.review-text {
+  margin-bottom: .5rem;
+  font-style: oblique;
 }
 
 .customer-name {
