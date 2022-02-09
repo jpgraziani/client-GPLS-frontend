@@ -417,6 +417,11 @@ h1 {
   margin: 0 auto;
 }
 
+.form-sent-response {
+  color: white;
+  margin: 0 auto;
+}
+
 input::placeholder, textarea::placeholder {
   color: var(--white);
   opacity: 1;
